@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hr_sys:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hr_sys_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hr_sys/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hr_sys" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="hibernate3" />
+          <element id="library" level="project" name="spring-aop" />
+          <element id="library" level="project" name="spring-core" />
+          <element id="library" level="project" name="spring-orm" />
+          <element id="library" level="project" name="spring-web" />
+          <element id="library" level="project" name="strust2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

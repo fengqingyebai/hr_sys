@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.link.entity">
+
+    <class name="Dept" table="t_dept">
+        <id name="id" column="deptId">
+            <generator class="native"></generator>
+        </id>
+        <property name="name" column="deptName" length="20"></property>
+
+    </class>
+
+</hibernate-mapping>

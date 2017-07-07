@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spring-aop">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/spring-aop" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/spring-aop" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/spring-aop" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/spring-aop" recursive="false" type="SOURCES" />
+  </library>
+</component>
